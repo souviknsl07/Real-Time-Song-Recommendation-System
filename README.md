@@ -27,7 +27,7 @@ Implementation of a real-time song recommendation system that leverages **Apache
   - Data Lake Storage: Firehose stores data into Amazon S3 as raw JSON files.
   - Real-time Processing: A Spark job running on EMR or Databricks continuously reads from S3 using Structured Streaming.
   - Recommendation Engine: The Spark job loads a pre-trained hybrid model (ALS + content filtering) and generates top-N song recommendations.
-  - Storing Recommendations: The recommended songs per user are written to another S3 bucket or prefix.
+  - Storing Recommendations and user-data: The recommended songs per user are written to another S3 bucket or prefix, as well as the new user-interaction data to re-train the model.
   - Cataloguing & Querying: AWS Glue Crawlers scan the S3 data and create Athena tables for querying recommendations in near real-time.
 
 
