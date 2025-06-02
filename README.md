@@ -15,6 +15,8 @@ Implementation of a real-time song recommendation system that leverages **Apache
 ---
 
 ## 📊 Architecture Diagram
+![image](https://github.com/user-attachments/assets/4ab1dc8d-166d-4389-ba44-b50b4a1d2004)
+
 
 
 ## 🚀 How It Works
