@@ -40,3 +40,8 @@ Implementation of a real-time song recommendation system that leverages **Apache
       - spark
       - boto3
       - pandas
+
+        
+## 🛠️ Future Scope
+  - Writing the data to DynamoDB for fast read and write, and getting real-time insights.
+  - Integrating Streamlit for real-time dashboards.
